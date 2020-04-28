@@ -1,4 +1,4 @@
-/*Corin Price-Howard 12/3/18 */
+/*Corin - 12/3/18 */
 
 "use strict";
 $(document).ready(function() {
