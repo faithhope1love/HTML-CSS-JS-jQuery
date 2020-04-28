@@ -1,4 +1,4 @@
-/* Corin Price-Howard 11/25/18 */
+/* Corin - 11/25/18 */
 $(document).ready(function() {
 
 $("#reservation_form").submit (
