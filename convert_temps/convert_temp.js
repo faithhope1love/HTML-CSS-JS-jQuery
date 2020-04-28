@@ -1,4 +1,4 @@
-<!-- Corin PriceHoward - 11/18/18-->
+<!-- Corin - 11/18/18-->
 "use strict";
 var $ = function(id) { 
 	return document.getElementById(id); 
