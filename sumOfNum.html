@@ -1,0 +1,38 @@
+<!-- Corin Price-Howard 11/10/18 -->
+<html>
+<body>
+<script type="text/javascript">
+<!--
+
+var tryAgain;
+total = 0;
+sum = 0;
+var entry;
+var again = "yup";
+do {
+entry = prompt("Enter any top number \n from 1 through 100.");
+entry = parseInt(entry);
+
+if(entry >= 0 && entry <=100) {
+sum = sum + entry;
+total++;
+alert("The sum of the numbers 1 through " + entry + " is " + sum + ".");
+}
+
+if (entry != 0 && entry != 100) {
+alert("Please enter a number between 1 and 100.");
+tryAgain = prompt("Enter a number between 1 and 100.");
+}
+
+else {
+alert("Do another sum?");
+}
+again = prompt("Do another sum?", "yup");
+}
+
+while(again == "yup");
+
+//-->
+</script>
+</body>
+</html>
