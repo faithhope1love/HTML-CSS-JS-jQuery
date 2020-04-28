@@ -1,4 +1,4 @@
-/* Corin Price-Howard 11/26/18 */
+/* Corin - 11/26/18 */
 $(document).ready(function() {
 //cancel the defaul action of the link
 	evt.preventDefault();
